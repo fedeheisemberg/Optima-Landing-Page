@@ -12,146 +12,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   /*background: #f4f7f6; /* Un tono claro de gris-verde para el fondo que es suave y profesional */
-  background-color: #F8F8F8;
-}
-
-.main-banner {
-  background-image: url('/images/principal_image\ 3.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 85vh;
-  color: white;
-  position: relative;
-}
-
-.main-nav {
-  background: none;
-  padding: 1rem 0; /* Ajusta el padding según necesites */
-  padding-top: 2;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-}
-
-.main-nav nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 1rem;
-  line-height: 10px;
-  padding: 2px 4px; /* Ajusta el padding para cambiar el tamaño del rectángulo */
-  transition: background-color 0.3s ease; /* Transición suave para el fondo */
-  display: inline-block; /* Permite que el padding afecte el tamaño del enlace */
-}
-
-.main-nav nav a:hover {
-  background-color: #3871c2; /* Color de fondo para el hover */
-  color: white; /* Mantén el color del texto en blanco */
-}
-
-
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 1rem; /* Añadido padding para no pegar el contenido a los bordes */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  /* Quita flex-grow si estabas usándolo, no es necesario si el logo es una imagen */
-  max-height: 80px; /* Ajusta la altura máxima del logo según necesites */
-  top: 20px; /* Ajusta este valor según sea necesario para alinear con el navbar */
-  left: 20px; /* Ajusta según sea necesario para la separación del borde izquierdo */
-  max-height: -10px; /* O el tamaño que prefieras para tu logo */
-  z-index: 1003; /* Asegúrate de que el logo esté por encima de otros elementos */
-}
-
-.logo img {
-  width: 370px; /* Cambia esto al ancho deseado */
-  height: auto; /* Esto mantendrá la proporción de la imagen automáticamente */
-  margin-top:-83px;
-  margin-left:-30px
-}
-/*Hamburguesa y cerrar */
-/* Estilos para icono de menú hamburguesa */
-.hamburger, .cerrar{
-  display: none; /* Escondido por defecto */
-  width: 40px; /* O el tamaño que prefieras */
-  height: 40px; /* O el tamaño que prefieras */
-  position: absolute;
-  top: 20px; /* Ajusta para alinear verticalmente */
-  right: 20px; /* Ajusta para alinear horizontalmente */
-  z-index: 1001; /* Asegura que esté por encima del resto */
-  background-color: transparent;
-}
-
-/* Media query para dispositivos móviles */
-@media (max-width: 768px) {
-  .hamburger{
-      display: block;
-      z-index: 0;
-      background-color: transparent;
-  }
-  .cerrar{
-      display:none;
-      z-index: 20;
-      background-color: transparent;
-  }
-  .main-nav nav {
-      display: flex;
-      flex-direction: column;
-      align-items: end;
-      gap: 0rem;
-      opacity: 1;
-      visibility: hidden;
-      position:absolute;
-      top:0px;
-      right:0;
-      background-color: #242424;
-      padding:2rem;
-      box-shadow: 0 0 0 1000vmax rgba(19, 19, 19, 0.5);
-  }
-
-  .main-nav nav.visible{
-      opacity: 1;
-      visibility: visible;
-  }
-  .main-nav nav.visible .cerrar {
-      display: block; /* Se muestra cuando el menú está abierto */
-  }
-
-  .nav-words{
-      flex-direction: column;
-      align-items: end;
-  }
-
-  .nav-words a{
-      color: #ececee;
-      
-  }
-
-
-
-}
-
-
-.main-nav nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.main-nav nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 2rem;
-  line-height: 80px;
+  background-color: #f8f8f8;
 }
 
 .clients-button {
@@ -198,38 +59,37 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .main-nav {
-      flex-direction: column;
-      padding: 0.5rem;
+    flex-direction: column;
+    padding: 0.5rem;
   }
 
   .main-nav .container {
-      flex-direction: column;
-      align-items: flex-start; /* Alinea el logo y el menú de navegación a la izquierda en dispositivos móviles */
+    flex-direction: column;
+    align-items: flex-start; /* Alinea el logo y el menú de navegación a la izquierda en dispositivos móviles */
   }
 
   .main-nav nav {
-      width: 100%;
-      padding: 0.5rem 0; /* Añadido padding para espaciar el menú de navegación */
+    width: 100%;
+    padding: 0.5rem 0; /* Añadido padding para espaciar el menú de navegación */
   }
 
   .main-nav nav a {
-      padding: 0.5rem 0; /* Añadido padding para cada enlace para una mejor tocabilidad */
-      margin: 0; /* Quitar margin lateral para que ocupe todo el ancho */
+    padding: 0.5rem 0; /* Añadido padding para cada enlace para una mejor tocabilidad */
+    margin: 0; /* Quitar margin lateral para que ocupe todo el ancho */
   }
 
   .logo {
-      margin-bottom: 0.5rem; /* Espacio debajo del logo en el diseño responsivo */
+    margin-bottom: 0.5rem; /* Espacio debajo del logo en el diseño responsivo */
   }
 
   .banner-content h1 {
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
 
   .banner-content p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 }
-
 
 /* Centrado de secciones */
 section {
@@ -239,8 +99,6 @@ section {
   text-align: center; /* Alinea el texto al centro */
   background: F8F8F8; /* Fondo blanco para las secciones de contenido para mantener el diseño limpio y claro */
 }
-
-
 
 /* Acerca de Nosotros */
 #about-us {
@@ -291,16 +149,16 @@ section {
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
   #about-us {
-      /* Resto del CSS para móviles */
+    /* Resto del CSS para móviles */
   }
 
   .about-container {
-      /* Resto del CSS para móviles */
+    /* Resto del CSS para móviles */
   }
 
   .about-text,
   .about-image {
-      flex-basis: 100%;
+    flex-basis: 100%;
   }
 
   /* .about-image img Removido ya que la imagen se ha eliminado */
@@ -311,29 +169,34 @@ section {
   max-width: 1200px;
   margin: auto;
   padding: 50px 0;
-  
 }
 
 #what-we-do h2 {
   text-align: center;
   color: #333;
   margin-bottom: 30px;
-  font-size: 2.5rem
+  font-size: 2.5rem;
 }
-#what-we-do h3{
+#what-we-do h3 {
   font-size: 1.5rem;
 }
 
-.strategy, .process, .risk-management {
+.strategy,
+.process,
+.risk-management {
   margin-bottom: 20px;
 }
 
-.strategy h3, .process h3, .risk-management h3 {
+.strategy h3,
+.process h3,
+.risk-management h3 {
   color: #333;
   margin-bottom: 10px;
 }
 
-.strategy p, .process p, .risk-management p {
+.strategy p,
+.process p,
+.risk-management p {
   color: #666;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -341,9 +204,6 @@ section {
 
 /* Additional CSS for "Risk Management" section if needed */
 /* ... */
-
-
-
 
 /* Products */
 #products {
@@ -391,8 +251,6 @@ section {
 
 /* Image Container */
 
-
-
 /* Management */
 
 #management-team {
@@ -400,7 +258,7 @@ section {
   padding: 50px 0;
   background-color: #f4f7f6; /* Light background for the management team section */
 }
-#management-team h2{
+#management-team h2 {
   font-size: 2.5rem;
 }
 .team-container {
@@ -437,12 +295,12 @@ section {
 
 @media (max-width: 768px) {
   .team-container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .team-member {
-      flex-basis: 100%;
-      margin-bottom: 30px;
+    flex-basis: 100%;
+    margin-bottom: 30px;
   }
 }
 
@@ -471,7 +329,7 @@ section {
   height: auto;
   margin-bottom: 15px;
 }
-#values h2{
+#values h2 {
   font-size: 2.5rem;
 }
 .value-item h3 {
@@ -486,12 +344,12 @@ section {
 
 @media (max-width: 768px) {
   .values-container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .value-item {
-      width: 30%; /* Adjust the width for mobile */
-      margin-bottom: 30px;
+    width: 30%; /* Adjust the width for mobile */
+    margin-bottom: 30px;
   }
 }
 
@@ -542,13 +400,12 @@ section {
   max-height: 500px; /* Un valor de max-height suficientemente grande */
 }
 
-
 /* Contacto */
 #contact {
   background-color: #f4f7f6;
   padding: 40px 0;
 }
-#contact h2{
+#contact h2 {
   font-size: 2rem;
 }
 .contact-form {
@@ -591,12 +448,12 @@ section {
 
 @media (max-width: 600px) {
   .contact-form {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 
   .contact-form textarea,
   .contact-form button {
-      grid-column: 1;
+    grid-column: 1;
   }
 }
 
@@ -674,33 +531,33 @@ footer {
 }
 
 .whatsapp-button:hover img {
-  transform: scale(1.1); /* El ícono crece ligeramente cuando el mouse está encima */
+  transform: scale(
+    1.1
+  ); /* El ícono crece ligeramente cuando el mouse está encima */
 }
-
 
 @media (max-width: 768px) {
   .footer-container {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer-section {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
-
 @media (max-width: 600px) {
   nav ul {
-      flex-direction: column;
-      align-items: flex-start; /* Alinea los elementos de la navegación a la izquierda en dispositivos móviles */
+    flex-direction: column;
+    align-items: flex-start; /* Alinea los elementos de la navegación a la izquierda en dispositivos móviles */
   }
 
   nav ul li {
-      margin: 10px 0;
+    margin: 10px 0;
   }
 
   header {
-      border-bottom: 1px solid #4a6572; /* Línea más delgada para el encabezado en dispositivos móviles */
+    border-bottom: 1px solid #4a6572; /* Línea más delgada para el encabezado en dispositivos móviles */
   }
 }
