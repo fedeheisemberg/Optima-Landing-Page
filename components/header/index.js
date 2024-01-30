@@ -2,6 +2,15 @@
 "use client";
 import React, { useState } from "react";
 import "./styles.css";
+import {
+  AcademicCapIcon,
+  BriefcaseIcon,
+  ChatIcon,
+  ChevronDownIcon,
+  LightBulbIcon,
+  MenuIcon,
+  XIcon,
+} from "@heroicons/react/outline";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,25 +27,49 @@ const Header = () => {
             <img src="/images/Optima (2).png" alt="Optima Logo" />
           </a>
           <button
-            className={`hamburger ${isOpen ? "hidden" : ''}`}
+            className={`hamburger ${isOpen ? "hidden" : ""}`}
             onClick={toggleMenu}
+            aria-label="Abrir menú"
           >
-            <img src="/images/menu.svg" alt="Menu" />
+            <MenuIcon className="h-6 w-6" aria-hidden="true" />
           </button>
           <button
             className={`cerrar ${isOpen ? "visible" : ""}`}
             onClick={toggleMenu}
+            aria-label="Cerrar menú"
           >
-            <img src="/images/close.svg" alt="Close" />
+            <XIcon className="h-6 w-6" aria-hidden="true" />
           </button>
-          <nav className={`nav-words ${isOpen ? "visible" : ""}`}>
-            <a href="#about-us">Nuestros servicios</a>
-            <a href="#what-we-do">Cómo lo hacemos</a>
-            <a href="#products">Educación</a>
-            <a href="#contact">Contacto</a>
+          <nav className={`${isOpen ? "visible" : ""}`}>
+            <a href="#about-us">
+              <BriefcaseIcon className="h-5 w-5 inline-block mr-1" />
+              Servicios
+            </a>
+            <a href="#what-we-do">
+              <LightBulbIcon className="h-5 w-5 inline-block mr-1" />
+              Nuestro proceso
+            </a>
+            <a href="#products">
+              <AcademicCapIcon className="h-5 w-5 inline-block mr-1" />
+              Educación
+            </a>
+            <a href="#contact">
+              <ChatIcon className="h-5 w-5 inline-block mr-1" />
+              Contacto
+            </a>
           </nav>
         </div>
       </header>
+      <div class="banner-content">
+        <h1>Estrategias cuantitativas de inversión</h1>
+        <p>
+          Gestionamos capital en renta fija y variable para maximizar retornos y
+          minimizar riesgos.
+        </p>
+        <a href="#about-us" class="button explore-now">
+          Conocer más <ChevronDownIcon className="h-5 w-5 inline-block ml-1" />
+        </a>
+      </div>
     </div>
   );
 };

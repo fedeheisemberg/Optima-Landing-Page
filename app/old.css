@@ -25,71 +25,7 @@ body {
   line-height: 80px;
 }
 
-.banner-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
-.banner-content h1 {
-  font-size: 3.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.banner-content p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-.explore-now {
-  background-color: #3871c2;
-  padding: 0.8rem 2rem;
-  color: white;
-  text-decoration: none;
-  border-radius: 2px;
-  transition: background-color 0.3s ease;
-}
-
-.explore-now:hover {
-  background-color: #1949a1;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .main-nav {
-    flex-direction: column;
-    padding: 0.5rem;
-  }
-
-  .main-nav .container {
-    flex-direction: column;
-    align-items: flex-start; /* Alinea el logo y el menú de navegación a la izquierda en dispositivos móviles */
-  }
-
-  .main-nav nav {
-    width: 100%;
-    padding: 0.5rem 0; /* Añadido padding para espaciar el menú de navegación */
-  }
-
-  .main-nav nav a {
-    padding: 0.5rem 0; /* Añadido padding para cada enlace para una mejor tocabilidad */
-    margin: 0; /* Quitar margin lateral para que ocupe todo el ancho */
-  }
-
-  .logo {
-    margin-bottom: 0.5rem; /* Espacio debajo del logo en el diseño responsivo */
-  }
-
-  .banner-content h1 {
-    font-size: 1.8rem;
-  }
-
-  .banner-content p {
-    font-size: 1rem;
-  }
-}
 
 /* Centrado de secciones */
 section {
