@@ -1,0 +1,706 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333; /* Gris oscuro para el texto, que es neutral y fácil de leer */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /*background: #f4f7f6; /* Un tono claro de gris-verde para el fondo que es suave y profesional */
+  background-color: #F8F8F8;
+}
+
+.main-banner {
+  background-image: url('/images/principal_image\ 3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  color: white;
+  position: relative;
+}
+
+.main-nav {
+  background: none;
+  padding: 1rem 0; /* Ajusta el padding según necesites */
+  padding-top: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.main-nav nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  line-height: 10px;
+  padding: 2px 4px; /* Ajusta el padding para cambiar el tamaño del rectángulo */
+  transition: background-color 0.3s ease; /* Transición suave para el fondo */
+  display: inline-block; /* Permite que el padding afecte el tamaño del enlace */
+}
+
+.main-nav nav a:hover {
+  background-color: #3871c2; /* Color de fondo para el hover */
+  color: white; /* Mantén el color del texto en blanco */
+}
+
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem; /* Añadido padding para no pegar el contenido a los bordes */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* Quita flex-grow si estabas usándolo, no es necesario si el logo es una imagen */
+  max-height: 80px; /* Ajusta la altura máxima del logo según necesites */
+  top: 20px; /* Ajusta este valor según sea necesario para alinear con el navbar */
+  left: 20px; /* Ajusta según sea necesario para la separación del borde izquierdo */
+  max-height: -10px; /* O el tamaño que prefieras para tu logo */
+  z-index: 1003; /* Asegúrate de que el logo esté por encima de otros elementos */
+}
+
+.logo img {
+  width: 370px; /* Cambia esto al ancho deseado */
+  height: auto; /* Esto mantendrá la proporción de la imagen automáticamente */
+  margin-top:-83px;
+  margin-left:-30px
+}
+/*Hamburguesa y cerrar */
+/* Estilos para icono de menú hamburguesa */
+.hamburger, .cerrar{
+  display: none; /* Escondido por defecto */
+  width: 40px; /* O el tamaño que prefieras */
+  height: 40px; /* O el tamaño que prefieras */
+  position: absolute;
+  top: 20px; /* Ajusta para alinear verticalmente */
+  right: 20px; /* Ajusta para alinear horizontalmente */
+  z-index: 1001; /* Asegura que esté por encima del resto */
+  background-color: transparent;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .hamburger{
+      display: block;
+      z-index: 0;
+      background-color: transparent;
+  }
+  .cerrar{
+      display:none;
+      z-index: 20;
+      background-color: transparent;
+  }
+  .main-nav nav {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      gap: 0rem;
+      opacity: 1;
+      visibility: hidden;
+      position:absolute;
+      top:0px;
+      right:0;
+      background-color: #242424;
+      padding:2rem;
+      box-shadow: 0 0 0 1000vmax rgba(19, 19, 19, 0.5);
+  }
+
+  .main-nav nav.visible{
+      opacity: 1;
+      visibility: visible;
+  }
+  .main-nav nav.visible .cerrar {
+      display: block; /* Se muestra cuando el menú está abierto */
+  }
+
+  .nav-words{
+      flex-direction: column;
+      align-items: end;
+  }
+
+  .nav-words a{
+      color: #ececee;
+      
+  }
+
+
+
+}
+
+
+.main-nav nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-nav nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  line-height: 80px;
+}
+
+.clients-button {
+  background: transparent;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 2px;
+  line-height: 80px;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.explore-now {
+  background-color: #3871c2;
+  padding: 0.8rem 2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-now:hover {
+  background-color: #1949a1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-nav {
+      flex-direction: column;
+      padding: 0.5rem;
+  }
+
+  .main-nav .container {
+      flex-direction: column;
+      align-items: flex-start; /* Alinea el logo y el menú de navegación a la izquierda en dispositivos móviles */
+  }
+
+  .main-nav nav {
+      width: 100%;
+      padding: 0.5rem 0; /* Añadido padding para espaciar el menú de navegación */
+  }
+
+  .main-nav nav a {
+      padding: 0.5rem 0; /* Añadido padding para cada enlace para una mejor tocabilidad */
+      margin: 0; /* Quitar margin lateral para que ocupe todo el ancho */
+  }
+
+  .logo {
+      margin-bottom: 0.5rem; /* Espacio debajo del logo en el diseño responsivo */
+  }
+
+  .banner-content h1 {
+      font-size: 1.8rem;
+  }
+
+  .banner-content p {
+      font-size: 1rem;
+  }
+}
+
+
+/* Centrado de secciones */
+section {
+  margin: auto;
+  max-width: 800px; /* o el ancho que prefieras */
+  padding: 20px;
+  text-align: center; /* Alinea el texto al centro */
+  background: F8F8F8; /* Fondo blanco para las secciones de contenido para mantener el diseño limpio y claro */
+}
+
+
+
+/* Acerca de Nosotros */
+#about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Cambiado para centrar el texto ya que la imagen se ha eliminado */
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Cambiado para centrar el texto */
+}
+
+.about-text {
+  /* flex-basis: 60%; Removido ya que ahora solo tenemos texto */
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-text button {
+  padding: 10px 20px;
+  background-color: #3871c2; /* Azul para el botón */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.about-text button:hover {
+  background-color: #1949a1; /* Un tono más oscuro para el hover */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  #about-us {
+      /* Resto del CSS para móviles */
+  }
+
+  .about-container {
+      /* Resto del CSS para móviles */
+  }
+
+  .about-text,
+  .about-image {
+      flex-basis: 100%;
+  }
+
+  /* .about-image img Removido ya que la imagen se ha eliminado */
+}
+
+/* Que hacemos */
+#what-we-do {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0;
+  
+}
+
+#what-we-do h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5rem
+}
+#what-we-do h3{
+  font-size: 1.5rem;
+}
+
+.strategy, .process, .risk-management {
+  margin-bottom: 20px;
+}
+
+.strategy h3, .process h3, .risk-management h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.strategy p, .process p, .risk-management p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Additional CSS for "Risk Management" section if needed */
+/* ... */
+
+
+
+
+/* Products */
+#products {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0;
+  text-align: center; /* Centrado de texto */
+}
+
+#products h2 {
+  color: #333; /* Color del título */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  font-size: 2.5rem;
+}
+
+#products p {
+  color: #666; /* Color del texto */
+  line-height: 1.6; /* Espaciado de línea para mejor legibilidad */
+  margin-bottom: 20px; /* Espacio debajo de los párrafos */
+}
+
+#products a {
+  color: #3871c2; /* Color para enlaces, como 'Contact an Adviser' */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+#products a:hover {
+  text-decoration: underline; /* Añade un subrayado al pasar el mouse sobre el enlace */
+}
+
+#products button {
+  padding: 10px 20px;
+  background-color: #3871c2; /* Color del botón */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; /* Cambia el cursor a pointer */
+  font-size: 1rem; /* Tamaño de fuente del botón */
+  transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+#products button:hover {
+  background-color: #3871c2; /* Color del botón al pasar el mouse */
+}
+
+/* Image Container */
+
+
+
+/* Management */
+
+#management-team {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f7f6; /* Light background for the management team section */
+}
+#management-team h2{
+  font-size: 2.5rem;
+}
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.team-member {
+  flex-basis: calc(33% - 40px); /* Subtracting margin from width */
+  margin: 20px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%; /* Adjust as needed, or set a max-width */
+  height: auto;
+  border-radius: 50%; /* Circular images */
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .team-container {
+      flex-direction: column;
+  }
+
+  .team-member {
+      flex-basis: 100%;
+      margin-bottom: 30px;
+  }
+}
+
+/* Valores */
+#values {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f7f6; /* Light background for the key values section */
+}
+
+.values-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.value-item {
+  width: 30%; /* Adjust the width as needed */
+  margin: 15px;
+}
+
+.value-item img {
+  max-width: 30%; /* Makes the image responsive */
+  height: auto;
+  margin-bottom: 15px;
+}
+#values h2{
+  font-size: 2.5rem;
+}
+.value-item h3 {
+  color: #333; /* Dark text for readability */
+  margin-bottom: 10px;
+}
+
+.value-item p {
+  color: #666; /* Lighter text for the description */
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .values-container {
+      flex-direction: column;
+  }
+
+  .value-item {
+      width: 30%; /* Adjust the width for mobile */
+      margin-bottom: 30px;
+  }
+}
+
+/* Estilos para la sección de preguntas frecuentes */
+.faqs {
+  background: #f8f8f8;
+  padding: 2rem;
+  color: #333;
+}
+
+.faqs h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq h3 {
+  background: #3871c2;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  margin: 0;
+  margin-bottom: 0.5rem; /* Espacio entre las preguntas */
+  transition: background-color 0.3s ease; /* Suaviza el fondo al pasar el mouse */
+}
+
+.faq h3:hover {
+  background-color: #1949a1; /* Cambio de color al pasar el mouse */
+}
+
+.faq p {
+  background: #fff;
+  margin: 0;
+  padding: 0; /* Se ajustará cuando se expanda */
+  max-height: 0; /* Comienza con max-height de 0 */
+  overflow: hidden; /* Asegura que el contenido no se muestre cuando esté colapsado */
+  transition: max-height 0.5s ease, padding 0.5s ease; /* Suaviza la transición de max-height y padding */
+}
+
+/* Clase para expandir la respuesta */
+.faq p.expanded {
+  padding: 0.5rem 1rem; /* Restaura el padding cuando se expanda */
+  max-height: 500px; /* Un valor de max-height suficientemente grande */
+}
+
+
+/* Contacto */
+#contact {
+  background-color: #f4f7f6;
+  padding: 40px 0;
+}
+#contact h2{
+  font-size: 2rem;
+}
+.contact-form {
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px 40px;
+  padding: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  grid-column: 1 / span 2;
+}
+
+.contact-form button {
+  grid-column: 1 / span 2;
+  padding: 10px;
+  background-color: #3871c2; /* Rojo oscuro para el botón */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #1949a1; /* Un tono más oscuro para el hover */
+}
+
+@media (max-width: 600px) {
+  .contact-form {
+      grid-template-columns: 1fr;
+  }
+
+  .contact-form textarea,
+  .contact-form button {
+      grid-column: 1;
+  }
+}
+
+/* FOOTER*/
+footer {
+  background: #2c3e50; /* Color de fondo del footer */
+  color: #bfc9ca; /* Color del texto */
+  padding: 40px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section h3 {
+  color: #fff; /* Color de los títulos en el footer */
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+  color: #bfc9ca; /* Color del texto */
+  text-decoration: none;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li a {
+  color: #bfc9ca; /* Color de los enlaces */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 24px; /* Tamaño de los íconos de redes sociales */
+  height: auto;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #4a6572; /* Línea divisoria */
+  padding-top: 20px;
+}
+
+.whatsapp-button {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  z-index: 1000; /* Asegúrate de que el botón esté sobre otros elementos */
+}
+
+.whatsapp-button img {
+  width: 60px; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover img {
+  transform: scale(1.1); /* El ícono crece ligeramente cuando el mouse está encima */
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-section {
+      margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  nav ul {
+      flex-direction: column;
+      align-items: flex-start; /* Alinea los elementos de la navegación a la izquierda en dispositivos móviles */
+  }
+
+  nav ul li {
+      margin: 10px 0;
+  }
+
+  header {
+      border-bottom: 1px solid #4a6572; /* Línea más delgada para el encabezado en dispositivos móviles */
+  }
+}
