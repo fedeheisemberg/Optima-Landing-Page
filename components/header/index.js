@@ -49,7 +49,7 @@ const Header = () => {
               <LightBulbIcon className="h-5 w-5 inline-block mr-1" />
               Nuestro proceso
             </a>
-            <a href="#products">
+            <a href="#education">
               <AcademicCapIcon className="h-5 w-5 inline-block mr-1" />
               Educación
             </a>

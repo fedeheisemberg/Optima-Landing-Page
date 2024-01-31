@@ -3,73 +3,88 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
-      <div class="footer-container">
-        <div class="footer-section">
-          <h3>Óptima - Consulting & Management</h3>
-          <p>San Juan, Argentina. Codigo Postal 5400.</p>
+    <footer className="bg-gray-800 text-white py-8">
+      <div className="footer-container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="footer-section">
+          <h3 className="font-bold text-xl mb-4">
+            Óptima - Consulting & Management
+          </h3>
+          <p>San Juan, Argentina. Código Postal 5400.</p>
           <p>optimaconsultingmanagement@gmail.com</p>
           <p>+5192645</p>
         </div>
-        <div class="footer-section">
-          <h3>Links</h3>
-          <ul>
-            <li>
-              <a href="#home">Home</a>
+        <div className="footer-section">
+          <h3 className="font-bold text-xl mb-4">Links</h3>
+          <ul className="list-none">
+            <li className="mb-2">
+              <a href="#home" className="hover:text-primary-500">
+                Home
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="#about" className="hover:text-primary-500">
+                Nuestros servicios
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="#services" className="hover:text-primary-500">
+                Cómo lo hacemos
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="#education" className="hover:text-primary-500">
+                Educación
+              </a>
             </li>
             <li>
-              <a href="#about">Nuestros servicios</a>
-            </li>
-            <li>
-              <a href="#services">Cómo lo hacemos</a>
-            </li>
-            <li>
-              <a href="#products">Educación</a>
-            </li>
-            <li>
-              <a href="#contact">Contacto</a>
+              <a href="#contact" className="hover:text-primary-500">
+                Contacto
+              </a>
             </li>
           </ul>
         </div>
-        <div class="footer-section">
-          <h3>Síguenos en redes.</h3>
-          <div class="social-icons">
-            <a href="https://linkedin.com">
-              <img src="/images/twitter.png" alt="LinkedIn" />
+        <div className="footer-section">
+          <h3 className="font-bold text-xl mb-4">Síguenos en redes</h3>
+          <div className="social-icons flex">
+            <a href="https://linkedin.com" className="mr-4">
+              <img
+                src="/images/linkedin.png"
+                alt="LinkedIn"
+                className="w-6 h-6"
+              />
             </a>
             <a href="https://www.instagram.com/optimaconsultingmanagement/">
-              <img src="/images/instagram.png" alt="Instagram" />
+              <img
+                src="/images/instagram.png"
+                alt="Instagram"
+                className="w-6 h-6"
+              />
             </a>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
+      <div className="footer-bottom text-center text-sm mt-8">
         <p>
           Toda la información contenida en este sitio web está destinada
           exclusivamente al interés general y no constituye asesoramiento
-          jurídico o fiscal ni una oferta de fondos o servicios de inversión.
-          Ninguna parte de este sitio web debe interpretarse como asesoramiento
-          financiero. Las inversiones implican riesgos. El valor de las
-          inversiones puede subir o bajar, y los inversores deben ser
-          conscientes de que es posible que no recuperen la totalidad del
-          importe invertido Optima Consulting & Management no será responsable
-          de ninguna inexactitud en la información contenida en este sitio web
-          ni de errores u omisiones en su contenido, independientemente del
-          motivo de tales inexactitudes, errores u omisiones. En cualquier
-          inversión financiera, los resultados pasados no garantizan los
-          resultados futuros.
+          jurídico o fiscal ni una oferta de fondos o servicios de inversión...
         </p>
-        <p>
+        <p className="mt-4">
           Copyright © 2024 Optima Consulting & Management. Todos los derechos
-          reservados.{" "}
+          reservados.
         </p>
       </div>
       <a
         href="https://wa.me/yourphonenumber"
         target="_blank"
-        class="whatsapp-button"
+        rel="noopener noreferrer"
+        className="whatsapp-button fixed bottom-4 right-4"
       >
-        <img src="/images/whatsapp.png" alt="Chat on WhatsApp" />
+        <img
+          src="/images/whatsapp.png"
+          alt="Chat on WhatsApp"
+          className="w-12 h-12"
+        />
       </a>
     </footer>
   );

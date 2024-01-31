@@ -10,98 +10,22 @@ body {
   color: #333; /* Gris oscuro para el texto, que es neutral y fácil de leer */
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   /*background: #f4f7f6; /* Un tono claro de gris-verde para el fondo que es suave y profesional */
   background-color: #f8f8f8;
 }
 
-.clients-button {
-  background: transparent;
-  border: 1px solid white;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: white;
-  border-radius: 2px;
-  line-height: 80px;
-}
-
-
-
 /* Centrado de secciones */
+/* 
 section {
   margin: auto;
-  max-width: 800px; /* o el ancho que prefieras */
+  max-width: 800px; 
   padding: 20px;
-  text-align: center; /* Alinea el texto al centro */
-  background: F8F8F8; /* Fondo blanco para las secciones de contenido para mantener el diseño limpio y claro */
-}
-
-/* Acerca de Nosotros */
-#about-us {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Cambiado para centrar el texto ya que la imagen se ha eliminado */
-  max-width: 1200px;
-  margin: auto;
-  padding: 50px 0;
-}
-
-.about-container {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Cambiado para centrar el texto */
-}
-
-.about-text {
-  /* flex-basis: 60%; Removido ya que ahora solo tenemos texto */
-}
-
-.about-text h2 {
-  font-size: 2.5rem;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.about-text p {
-  color: #666;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.about-text button {
-  padding: 10px 20px;
-  background-color: #3871c2; /* Azul para el botón */
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-}
-
-.about-text button:hover {
-  background-color: #1949a1; /* Un tono más oscuro para el hover */
-}
-
-/* Media query para dispositivos móviles */
-@media (max-width: 768px) {
-  #about-us {
-    /* Resto del CSS para móviles */
-  }
-
-  .about-container {
-    /* Resto del CSS para móviles */
-  }
-
-  .about-text,
-  .about-image {
-    flex-basis: 100%;
-  }
-
-  /* .about-image img Removido ya que la imagen se ha eliminado */
-}
+  text-align: center; 
+  background: F8F8F8;
+} */
 
 /* Que hacemos */
-#what-we-do {
+/* #what-we-do {
   max-width: 1200px;
   margin: auto;
   padding: 50px 0;
@@ -136,63 +60,63 @@ section {
   color: #666;
   line-height: 1.6;
   margin-bottom: 20px;
-}
+} */
 
 /* Additional CSS for "Risk Management" section if needed */
 /* ... */
 
 /* Products */
-#products {
+/* #education {
   max-width: 1200px;
   margin: auto;
   padding: 50px 0;
-  text-align: center; /* Centrado de texto */
+  text-align: center; 
 }
 
-#products h2 {
-  color: #333; /* Color del título */
-  margin-bottom: 20px; /* Espacio debajo del título */
+#education h2 {
+  color: #333; 
+  margin-bottom: 20px; 
   font-size: 2.5rem;
 }
 
-#products p {
-  color: #666; /* Color del texto */
-  line-height: 1.6; /* Espaciado de línea para mejor legibilidad */
-  margin-bottom: 20px; /* Espacio debajo de los párrafos */
+#education p {
+  color: #666; 
+  line-height: 1.6; 
+  margin-bottom: 20px; 
 }
 
-#products a {
-  color: #3871c2; /* Color para enlaces, como 'Contact an Adviser' */
-  text-decoration: none; /* Elimina el subrayado del enlace */
+#education a {
+  color: #3871c2; 
+  text-decoration: none; 
 }
 
-#products a:hover {
-  text-decoration: underline; /* Añade un subrayado al pasar el mouse sobre el enlace */
+#education a:hover {
+  text-decoration: underline; 
 }
 
-#products button {
+#education button {
   padding: 10px 20px;
-  background-color: #3871c2; /* Color del botón */
+  background-color: #3871c2; 
   color: white;
   border: none;
   border-radius: 4px;
-  cursor: pointer; /* Cambia el cursor a pointer */
-  font-size: 1rem; /* Tamaño de fuente del botón */
-  transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+  cursor: pointer; 
+  font-size: 1rem; 
+  transition: background-color 0.3s ease; 
 }
 
-#products button:hover {
-  background-color: #3871c2; /* Color del botón al pasar el mouse */
-}
+#education button:hover {
+  background-color: #3871c2; 
+} */
 
 /* Image Container */
 
 /* Management */
-
+/* 
 #management-team {
   text-align: center;
   padding: 50px 0;
-  background-color: #f4f7f6; /* Light background for the management team section */
+  background-color: #f4f7f6;
 }
 #management-team h2 {
   font-size: 2.5rem;
@@ -206,15 +130,15 @@ section {
 }
 
 .team-member {
-  flex-basis: calc(33% - 40px); /* Subtracting margin from width */
+  flex-basis: calc(33% - 40px);
   margin: 20px;
   text-align: center;
 }
 
 .team-member img {
-  width: 100%; /* Adjust as needed, or set a max-width */
+  width: 100%;
   height: auto;
-  border-radius: 50%; /* Circular images */
+  border-radius: 50%;
   margin-bottom: 15px;
 }
 
@@ -238,13 +162,13 @@ section {
     flex-basis: 100%;
     margin-bottom: 30px;
   }
-}
+} */
 
 /* Valores */
-#values {
+/* #values {
   text-align: center;
   padding: 50px 0;
-  background-color: #f4f7f6; /* Light background for the key values section */
+  background-color: #f4f7f6;
 }
 
 .values-container {
@@ -256,12 +180,12 @@ section {
 }
 
 .value-item {
-  width: 30%; /* Adjust the width as needed */
+  width: 30%;
   margin: 15px;
 }
 
 .value-item img {
-  max-width: 30%; /* Makes the image responsive */
+  max-width: 30%;
   height: auto;
   margin-bottom: 15px;
 }
@@ -269,12 +193,12 @@ section {
   font-size: 2.5rem;
 }
 .value-item h3 {
-  color: #333; /* Dark text for readability */
+  color: #333;
   margin-bottom: 10px;
 }
 
 .value-item p {
-  color: #666; /* Lighter text for the description */
+  color: #666;
   font-size: 14px;
 }
 
@@ -284,13 +208,13 @@ section {
   }
 
   .value-item {
-    width: 30%; /* Adjust the width for mobile */
+    width: 30%;
     margin-bottom: 30px;
   }
-}
+} */
 
 /* Estilos para la sección de preguntas frecuentes */
-.faqs {
+/* .faqs {
   background: #f8f8f8;
   padding: 2rem;
   color: #333;
@@ -313,31 +237,31 @@ section {
   padding: 0.75rem 1rem;
   cursor: pointer;
   margin: 0;
-  margin-bottom: 0.5rem; /* Espacio entre las preguntas */
-  transition: background-color 0.3s ease; /* Suaviza el fondo al pasar el mouse */
+  margin-bottom: 0.5rem;
+  transition: background-color 0.3s ease;
 }
 
 .faq h3:hover {
-  background-color: #1949a1; /* Cambio de color al pasar el mouse */
+  background-color: #1949a1;
 }
 
 .faq p {
   background: #fff;
   margin: 0;
-  padding: 0; /* Se ajustará cuando se expanda */
-  max-height: 0; /* Comienza con max-height de 0 */
-  overflow: hidden; /* Asegura que el contenido no se muestre cuando esté colapsado */
-  transition: max-height 0.5s ease, padding 0.5s ease; /* Suaviza la transición de max-height y padding */
-}
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+} */
 
 /* Clase para expandir la respuesta */
-.faq p.expanded {
-  padding: 0.5rem 1rem; /* Restaura el padding cuando se expanda */
-  max-height: 500px; /* Un valor de max-height suficientemente grande */
-}
+/* .faq p.expanded {
+  padding: 0.5rem 1rem;
+  max-height: 500px;
+} */
 
 /* Contacto */
-#contact {
+/* #contact {
   background-color: #f4f7f6;
   padding: 40px 0;
 }
@@ -371,7 +295,7 @@ section {
 .contact-form button {
   grid-column: 1 / span 2;
   padding: 10px;
-  background-color: #3871c2; /* Rojo oscuro para el botón */
+  background-color: #3871c2; 
   color: white;
   border: none;
   border-radius: 4px;
@@ -379,7 +303,7 @@ section {
 }
 
 .contact-form button:hover {
-  background-color: #1949a1; /* Un tono más oscuro para el hover */
+  background-color: #1949a1; 
 }
 
 @media (max-width: 600px) {
@@ -391,12 +315,12 @@ section {
   .contact-form button {
     grid-column: 1;
   }
-}
+} */
 
 /* FOOTER*/
 footer {
-  background: #2c3e50; /* Color de fondo del footer */
-  color: #bfc9ca; /* Color del texto */
+  background: #2c3e50;
+  color: #bfc9ca;
   padding: 40px 0;
   font-size: 14px;
   line-height: 1.6;
@@ -409,14 +333,14 @@ footer {
 }
 
 .footer-section h3 {
-  color: #fff; /* Color de los títulos en el footer */
+  color: #fff;
   margin-bottom: 15px;
 }
 
 .footer-section p,
 .footer-section ul,
 .footer-section a {
-  color: #bfc9ca; /* Color del texto */
+  color: #bfc9ca;
   text-decoration: none;
 }
 
@@ -426,7 +350,7 @@ footer {
 }
 
 .footer-section li a {
-  color: #bfc9ca; /* Color de los enlaces */
+  color: #bfc9ca;
   text-decoration: none;
   display: block;
   margin-bottom: 5px;
@@ -442,14 +366,14 @@ footer {
 }
 
 .social-icons img {
-  width: 24px; /* Tamaño de los íconos de redes sociales */
+  width: 24px;
   height: auto;
 }
 
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
-  border-top: 1px solid #4a6572; /* Línea divisoria */
+  border-top: 1px solid #4a6572;
   padding-top: 20px;
 }
 
@@ -457,19 +381,17 @@ footer {
   position: fixed;
   left: 15px;
   bottom: 15px;
-  z-index: 1000; /* Asegúrate de que el botón esté sobre otros elementos */
+  z-index: 1000;
 }
 
 .whatsapp-button img {
-  width: 60px; /* Ajusta el tamaño según tus necesidades */
+  width: 60px;
   height: auto;
   transition: transform 0.3s ease;
 }
 
 .whatsapp-button:hover img {
-  transform: scale(
-    1.1
-  ); /* El ícono crece ligeramente cuando el mouse está encima */
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
@@ -486,7 +408,7 @@ footer {
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
-    align-items: flex-start; /* Alinea los elementos de la navegación a la izquierda en dispositivos móviles */
+    align-items: flex-start;
   }
 
   nav ul li {
@@ -494,6 +416,6 @@ footer {
   }
 
   header {
-    border-bottom: 1px solid #4a6572; /* Línea más delgada para el encabezado en dispositivos móviles */
+    border-bottom: 1px solid #4a6572;
   }
 }
