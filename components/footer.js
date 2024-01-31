@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="footer-section">
           <h3 className="font-bold text-xl mb-4">
-            Óptima - Consulting & Management
+            Optima - Consulting & Management
           </h3>
           <p>San Juan, Argentina. Código Postal 5400.</p>
           <p>optimaconsultingmanagement@gmail.com</p>
@@ -65,9 +65,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom text-center text-sm mt-8">
         <p>
-          Toda la información contenida en este sitio web está destinada
-          exclusivamente al interés general y no constituye asesoramiento
-          jurídico o fiscal ni una oferta de fondos o servicios de inversión...
+        Toda la información contenida en este sitio web está destinada exclusivamente al interés general y no constituye asesoramiento jurídico o fiscal ni una oferta de fondos o servicios de inversión. Ninguna parte de este sitio web debe interpretarse como asesoramiento financiero. Las inversiones implican riesgos. El valor de las inversiones puede subir o bajar, y los inversores deben ser conscientes de que es posible que no recuperen la totalidad del importe invertido Optima Consulting & Management no será responsable de ninguna inexactitud en la información contenida en este sitio web ni de errores u omisiones en su contenido, independientemente del motivo de tales inexactitudes, errores u omisiones. En cualquier inversión financiera, los resultados pasados no garantizan los resultados futuros.
         </p>
         <p className="mt-4">
           Copyright © 2024 Optima Consulting & Management. Todos los derechos

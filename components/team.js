@@ -24,9 +24,7 @@ const Team = () => {
               Federico Martinez
             </h3>
             <p className="text-gray-600">
-              Licenciado en Economía.
-              <br />
-              Trader y Analista de Datos.
+              Financial Data Analyst
             </p>
           </div>
           <div className="team-member bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
@@ -39,9 +37,7 @@ const Team = () => {
               Gabriel Guardia
             </h3>
             <p className="text-gray-600">
-              Contador Público Nacional
-              <br />
-              Trader y Analista de Datos
+              Financial Data Analyst
             </p>
           </div>
           <div className="team-member bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
@@ -54,9 +50,7 @@ const Team = () => {
               Matias Camisay
             </h3>
             <p className="text-gray-600">
-              Ingeniero
-              <br />
-              Programador
+              Developer
             </p>
           </div>
         </div>
