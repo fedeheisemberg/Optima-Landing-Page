@@ -4,10 +4,10 @@ import React from "react";
 const Values = () => {
   return (
     <section id="values">
-      <h2>Lo que nos mueve</h2>
+      <h2>Nuestro compromiso</h2>
       <div class="values-container">
         <div class="value-item">
-          <img src="/images/target.png" alt="Aligned with clients" />
+          <img src="/images/target.png" alt="Misión" />
           <h3>Misión</h3>
           <p>
             Brindar soluciones financieras de alta calidad y confiabilidad para
@@ -16,7 +16,7 @@ const Values = () => {
           </p>
         </div>
         <div class="value-item">
-          <img src="/images/evidence.png" alt="Evidence Based" />
+          <img src="/images/evidence.png" alt="Visión" />
           <h3>Visión</h3>
           <p>
             Ser reconocidos como líderes en la industria, destacándonos por
@@ -25,7 +25,7 @@ const Values = () => {
           </p>
         </div>
         <div class="value-item">
-          <img src="/images/increase.png" alt="Tested Portfolios" />
+          <img src="/images/increase.png" alt="Valores" />
           <h3>Valores</h3>
           <p>
             Nos regimos estrictamente por valores como la comunicación, la

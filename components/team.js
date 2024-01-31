@@ -14,27 +14,21 @@ const Team = () => {
           <img src="/images/Fede.jpg" alt="Federico Martinez" />
           <h3>Federico Martinez</h3>
           <p>
-            Licenciado en Economía.
-            <br />
-            Trader y Analista de Datos.
+            Financial Data Analyst
           </p>
         </div>
         <div class="team-member">
           <img src="/images/Gabriel.jpg" alt="Gabriel Guardia" />
           <h3>Gabriel Guardia</h3>
           <p>
-            Contador Público Nacional
-            <br />
-            Trader y Analista de Datos
+            Financial Data Analyst
           </p>
         </div>
         <div class="team-member">
           <img src="/images/mati.jpg" alt="Matias Camisay" />
           <h3>Matias Camisay</h3>
           <p>
-            Ingeniero
-            <br />
-            Programador
+            Developer
           </p>
         </div>
       </div>
