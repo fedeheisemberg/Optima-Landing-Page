@@ -1,0 +1,63 @@
+/* Acerca de Nosotros */
+#about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Cambiado para centrar el texto ya que la imagen se ha eliminado */
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Cambiado para centrar el texto */
+}
+
+.about-text {
+  /* flex-basis: 60%; Removido ya que ahora solo tenemos texto */
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-text button {
+  padding: 10px 20px;
+  background-color: #3871c2; /* Azul para el botón */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.about-text button:hover {
+  background-color: #1949a1; /* Un tono más oscuro para el hover */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  #about-us {
+    /* Resto del CSS para móviles */
+  }
+
+  .about-container {
+    /* Resto del CSS para móviles */
+  }
+
+  .about-text,
+  .about-image {
+    flex-basis: 100%;
+  }
+
+  /* .about-image img Removido ya que la imagen se ha eliminado */
+}
