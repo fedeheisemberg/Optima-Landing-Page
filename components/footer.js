@@ -10,9 +10,9 @@ const Footer = () => {
           <h3 className="font-bold text-xl mb-4">
             Optima - Consulting & Management
           </h3>
+          <p>Laprida 230 Oeste. Oficina 11, Piso 1.</p>
           <p>San Juan, Argentina. Código Postal 5400.</p>
           <p>optimaconsultingmanagement@gmail.com</p>
-          <p>+5192645</p>
         </div>
         <div className="footer-section">
           <h3 className="font-bold text-xl mb-4">Links</h3>
@@ -95,7 +95,7 @@ const Footer = () => {
         </p>
       </div>
       <a
-        href="https://wa.me/+5492645880556"
+        href="https://wa.me/5492645880556"
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-button fixed bottom-4 right-4"

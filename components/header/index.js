@@ -61,12 +61,12 @@ const Header = () => {
         </div>
       </header>
       <div className="banner-content">
-        <h1>Estrategias cuantitativas de inversión</h1>
+        <h1>Estrategias algorítmicas de inversión</h1>
         <p>
           Gestionamos capital en renta fija y variable para maximizar retornos y
           minimizar riesgos.
         </p>
-        <a href="#contact" className="button explore-now">
+        <a href="#management-team" className="button explore-now">
           Conocer más <ChevronDownIcon className="h-5 w-5 inline-block ml-1" />
         </a>
       </div>
