@@ -1,43 +1,30 @@
+"use client";
 import React from "react";
-import InputField from "./ui/input-field";
-import TextareaField from "./ui/text-area";
+import { useForm } from "react-hook-form";
+import InputField from "../ui/input-field";
+import TextareaField from "../ui/text-area";
+import { saveContactInfo } from "./action";
+import { toast } from "react-toastify";
 
 const Contact = () => {
-  const handleSubmit = async (event) => {
-    event.preventDefault(); // Detiene el envío por defecto del formulario
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    mode: "all",
+  });
 
-    // Recolecta los valores del formulario
-    const formData = {
-      nombreCompleto: event.target.name.value,
-      email: event.target.email.value,
-      telefono: event.target.phone.value,
-      pais: event.target.country.value,
-      mensaje: event.target.message.value,
-      experienciaInversiones: event.target.investment_experience.value,
-    };
-
-    // Envía los valores del formulario a la API
+  const onSubmit = async (formData) => {
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-
-      const result = await response.json();
-
-      if (response.ok) {
-        // Manejo cuando la inserción es exitosa
-        console.log('Formulario enviado con éxito:', result);
-      } else {
-        // Manejo de errores del servidor
-        console.error('Error al enviar formulario:', result);
+      const { success } = await saveContactInfo(formData);
+      if (!success) {
+        return toast.error("Error al guardar la información de contacto.");
       }
+      toast.success("Información de contacto guardada con éxito!");
     } catch (error) {
-      // Manejo de errores de conexión
-      console.error('Error de conexión con la API:', error);
+      console.error("Error de conexión con la API:", error);
+      toast.error("Error al guardar la información de contacto.");
     }
   };
 
@@ -49,7 +36,7 @@ const Contact = () => {
         </h2>
         <form
           className="contact-form grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
-          onSubmit={handleSubmit}
+          onSubmit={handleSubmit(onSubmit)}
         >
           <InputField
             label="Nombre completo"
@@ -57,7 +44,9 @@ const Contact = () => {
             id="name"
             name="name"
             placeholder="Nombre completo"
+            register={register}
             required
+            error={errors.name}
           />
           <InputField
             label="Email"
@@ -65,6 +54,8 @@ const Contact = () => {
             id="email"
             name="email"
             placeholder="Email"
+            error={errors.email}
+            register={register}
             required
           />
           <InputField
@@ -73,6 +64,7 @@ const Contact = () => {
             id="phone"
             name="phone"
             placeholder="Teléfono"
+            register={register}
           />
           <InputField
             label="País"
@@ -80,6 +72,7 @@ const Contact = () => {
             id="country"
             name="country"
             placeholder="País"
+            register={register}
           />
           <TextareaField
             label="¿Cómo podemos ayudarte?"
@@ -87,6 +80,9 @@ const Contact = () => {
             name="message"
             placeholder="¿Cómo podemos ayudarte?"
             className="col-span-full"
+            register={register}
+            required
+            error={errors.message}
           />
           <TextareaField
             label="¿Posees experiencia en inversiones?"
@@ -94,6 +90,9 @@ const Contact = () => {
             name="investment_experience"
             placeholder="¿Posees experiencia en inversiones?"
             className="col-span-full"
+            register={register}
+            required
+            error={errors.investment_experience}
           />
           <div className="col-span-full text-right">
             <button
@@ -110,4 +109,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

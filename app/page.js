@@ -7,8 +7,11 @@ import Education from "@/components/education";
 import Team from "@/components/team";
 import Values from "@/components/values";
 import WhatWeDo from "@/components/what-we-do";
+import { getContacts } from "@/components/contact/action";
 
-export default function Home() {
+export default async function Home() {
+  const { data } = await getContacts();
+  console.log(data);
   return (
     <>
       <Header />
