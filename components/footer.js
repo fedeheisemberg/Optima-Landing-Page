@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -46,26 +47,39 @@ const Footer = () => {
         <div className="footer-section">
           <h3 className="font-bold text-xl mb-4">Síguenos en redes</h3>
           <div className="social-icons flex">
-            <a href="https://linkedin.com" className="mr-4">
-              <img
-                src="/images/linkedin.png"
-                alt="LinkedIn"
-                className="w-6 h-6"
-              />
+            <a
+              href="https://facebook.com"
+              className="mr-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookF className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com/optimaconsultingmanagement/">
-              <img
-                src="/images/instagram.png"
-                alt="Instagram"
-                className="w-6 h-6"
-              />
+            <a
+              href="https://www.instagram.com/optimaconsultingmanagement/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="w-6 h-6" />
             </a>
           </div>
         </div>
       </div>
       <div className="footer-bottom text-center text-sm mt-8">
         <p>
-        Toda la información contenida en este sitio web está destinada exclusivamente al interés general y no constituye asesoramiento jurídico o fiscal ni una oferta de fondos o servicios de inversión. Ninguna parte de este sitio web debe interpretarse como asesoramiento financiero. Las inversiones implican riesgos. El valor de las inversiones puede subir o bajar, y los inversores deben ser conscientes de que es posible que no recuperen la totalidad del importe invertido Optima Consulting & Management no será responsable de ninguna inexactitud en la información contenida en este sitio web ni de errores u omisiones en su contenido, independientemente del motivo de tales inexactitudes, errores u omisiones. En cualquier inversión financiera, los resultados pasados no garantizan los resultados futuros.
+          Toda la información contenida en este sitio web está destinada
+          exclusivamente al interés general y no constituye asesoramiento
+          jurídico o fiscal ni una oferta de fondos o servicios de inversión.
+          Ninguna parte de este sitio web debe interpretarse como asesoramiento
+          financiero. Las inversiones implican riesgos. El valor de las
+          inversiones puede subir o bajar, y los inversores deben ser
+          conscientes de que es posible que no recuperen la totalidad del
+          importe invertido Optima Consulting & Management no será responsable
+          de ninguna inexactitud en la información contenida en este sitio web
+          ni de errores u omisiones en su contenido, independientemente del
+          motivo de tales inexactitudes, errores u omisiones. En cualquier
+          inversión financiera, los resultados pasados no garantizan los
+          resultados futuros.
         </p>
         <p className="mt-4">
           Copyright © 2024 Optima Consulting & Management. Todos los derechos
