@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -67,7 +67,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaXTwitter className="w-6 h-6" />
+              <FaTwitter className="w-6 h-6" />
             </a>
 
           </div>
