@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -48,7 +48,7 @@ const Footer = () => {
           <h3 className="font-bold text-xl mb-4">Síguenos en redes</h3>
           <div className="social-icons flex">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/optimaconsultingmanagement"
               className="mr-4"
               target="_blank"
               rel="noopener noreferrer"
@@ -62,6 +62,14 @@ const Footer = () => {
             >
               <FaInstagram className="w-6 h-6" />
             </a>
+            <a
+              href="https://twitter.com/Optimaconsmgmt"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaXTwitter className="w-6 h-6" />
+            </a>
+
           </div>
         </div>
       </div>
