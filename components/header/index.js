@@ -66,7 +66,7 @@ const Header = () => {
           Gestionamos capital en renta fija y variable para maximizar retornos y
           minimizar riesgos.
         </p>
-        <a href="#about-us" className="button explore-now">
+        <a href="#contact" className="button explore-now">
           Conocer más <ChevronDownIcon className="h-5 w-5 inline-block ml-1" />
         </a>
       </div>
