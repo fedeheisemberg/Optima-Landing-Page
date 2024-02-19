@@ -14,7 +14,7 @@ const FaqItem = ({ title, children }) => {
         className="flex justify-between items-center p-5 bg-gray-200 rounded-lg cursor-pointer"
         onClick={toggleOpen}
       >
-        <h3 className="text-lg font-semibold">{title}</h3>
+        <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
         <ChevronDownIcon
           className={`h-6 w-6 transform ${isOpen ? "rotate-180" : ""}`}
         />

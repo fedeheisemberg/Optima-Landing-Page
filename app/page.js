@@ -20,7 +20,7 @@ export default async function Home() {
       <Team />
       <Values />
       <Faqs />
-      <div id="contact_scroll">
+      <div id="contact_scroll" className="bg-transparent">
         <br />
       </div>
       <Contact />

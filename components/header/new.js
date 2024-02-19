@@ -56,9 +56,9 @@ const NewHeader = () => {
             className="flex items-center text-2xl font-bold text-gray-800"
           >
             <img
-              src="/images/logo.svg"
+              src="/images/imagotipo-negativo.svg"
               alt="Optima Logo"
-              className="h-10 mr-2"
+              className="h-16 mr-2"
             />
           </a>
           <div className="lg:hidden">

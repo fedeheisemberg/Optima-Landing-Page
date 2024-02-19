@@ -69,7 +69,6 @@ const Footer = () => {
             >
               <FaTwitter className="w-6 h-6" />
             </a>
-
           </div>
         </div>
       </div>
@@ -90,8 +89,8 @@ const Footer = () => {
           resultados futuros.
         </p>
         <p className="mt-4">
-          Copyright © 2024 Optima Consulting & Management. Todos los derechos
-          reservados.
+          Copyright © 2024 Optima Consulting & Management LLC. Todos los
+          derechos reservados.
         </p>
       </div>
       <a
