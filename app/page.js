@@ -20,8 +20,8 @@ export default async function Home() {
       <Team />
       <Values />
       <Faqs />
-      <div id="contact_scroll" className="bg-transparent">
-        <br />
+      <div id="contact_scroll" className="bg-gray-50 my-2">
+        <span className="text-gray-50">contact</span>
       </div>
       <Contact />
       <Footer />
