@@ -152,7 +152,7 @@ const NewHeader = () => {
           </p>
           <Link to="contact_scroll" smooth={true} duration={500}>
             <button className="mt-8 px-6 py-3 text-white text-lg font-medium uppercase bg-blue-600 rounded-lg shadow-lg hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 focus:outline-none focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-              Empezar proyecto
+              Conocer más
             </button>
           </Link>
         </div>
