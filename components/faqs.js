@@ -41,6 +41,10 @@ const Faqs = () => {
           Preguntas Frecuentes
         </h2>
         <div className="faq-container">
+          <FaqItem title="¿Qué es el Machine Learning y cómo lo aplicamos en el mundo de las finanzas y la resolución de problemas empresariales?">
+            El Machine Learning, o aprendizaje automático, es una rama de las Ciencias de la Computación que se centra en el desarrollo de sistemas capaces de aprender y hacer predicciones a partir de datos. En el mundo de las finanzas, lo usamos para identificar patrones de mercado, optimizar carteras, evaluar riesgos y mucho más, mejorando así la toma de decisiones y la eficiencia operativa.
+          </FaqItem>
+
           <FaqItem title="¿Qué es un fondo de inversión?">
             Un fondo de inversión es un instrumento financiero que reúne capital
             de varios inversores para invertir en una diversidad de activos.
@@ -49,12 +53,10 @@ const Faqs = () => {
             Las estrategias algorítmicas utilizan modelos matemáticos para tomar
             decisiones de inversión automatizadas basadas en datos del mercado.
           </FaqItem>
-          <FaqItem title="¿Cómo utilizan las Ciencias de la Computación para mejorar las estrategias de inversión?">
-            Utilizamos técnicas como el aprendizaje automático y la inteligencia
-            artificial para analizar grandes conjuntos de datos del mercado, lo
-            que nos permite anticipar tendencias y ajustar nuestras estrategias
-            en tiempo real para maximizar los retornos y minimizar los riesgos
+          <FaqItem title="¿Cómo aplican las Ciencias de la Computación y la Ciencia de Datos para mejorar las estrategias de inversión y resolver problemas empresariales?">
+            Además de optimizar estrategias de inversión mediante técnicas de aprendizaje automático e inteligencia artificial para analizar grandes conjuntos de datos del mercado, aplicamos la ciencia de datos para abordar retos empresariales. Esto incluye modelos predictivos para reducir la rotación de empleados, algoritmos de optimización de inventarios para reducir costos, y análisis avanzados de datos para impulsar las ventas y la toma de decisiones. Nuestro enfoque holístico integra múltiples fuentes de datos y metodologías para proporcionar soluciones completas y accionables.
           </FaqItem>
+
           <FaqItem title="¿Qué tipo de apoyo educativo ofrecen para inversores principiantes?">
             Ofrecemos una gama de seminarios y programas educativos diseñados
             para todos los niveles de experiencia. Para los inversores
@@ -64,15 +66,10 @@ const Faqs = () => {
             inversores con el conocimiento necesario para tomar decisiones
             informadas y confiadas.
           </FaqItem>
-          <FaqItem title="¿Cómo garantizan la alineación de sus servicios con mis objetivos financieros personales?">
-            En Optima, entendemos que cada cliente tiene objetivos y necesidades
-            únicas. Por eso, nuestro equipo de expertos trabaja de cerca contigo
-            para comprender tus metas financieras a corto y largo plazo.
-            Basándonos en esta comprensión, personalizamos planes de inversión
-            que se alinean específicamente con tus objetivos, garantizando una
-            estrategia que se adapte a tus necesidades individuales y a tu
-            tolerancia al riesgo.
+          <FaqItem title="¿Cómo garantizan la alineación de sus servicios con mis objetivos financieros, tanto personales como empresariales?">
+            En Optima, reconocemos que cada cliente y empresa tiene metas únicas. Nuestro equipo de expertos colabora estrechamente contigo o con tu departamento financiero para entender los objetivos financieros a corto y largo plazo, ya sean personales o relacionados con el crecimiento y estabilidad de tu negocio. Con esta información detallada, diseñamos planes de inversión personalizados y asesoramiento estratégico que se ajustan específicamente a tus necesidades y perfil de riesgo, o los de tu empresa, asegurando así que nuestras estrategias promuevan el éxito y la sostenibilidad financiera de tu cartera individual o corporativa.
           </FaqItem>
+
         </div>
       </div>
     </section>

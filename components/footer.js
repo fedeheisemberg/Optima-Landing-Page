@@ -42,6 +42,11 @@ const Footer = () => {
                 Contacto
               </a>
             </li>
+            <li>
+              <a href="#https://optima-blog.vercel.app/" className="hover:text-primary-500">
+                OptimaBlog
+              </a>
+            </li>
           </ul>
         </div>
         <div className="footer-section">

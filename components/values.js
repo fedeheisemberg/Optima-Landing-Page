@@ -18,9 +18,7 @@ const Values = () => {
             />
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Misión</h3>
             <p className="text-gray-600">
-              Brindar soluciones financieras de alta calidad y confiabilidad
-              para la toma de decisiones sólidas y estratégicas con el objetivo
-              de alcanzar crecimiento y rentabilidad.
+            Empoderar la toma de decisiones financieras y empresariales mediante respuestas sofisticadas y seguras, sustentadas en análisis de datos exhaustivos. Nos comprometemos a transformar datos complejos en estrategias claras y efectivas para impulsar el crecimiento sostenible y la rentabilidad de nuestros clientes.
             </p>
           </div>
           <div className="value-item bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
@@ -31,9 +29,7 @@ const Values = () => {
             />
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Visión</h3>
             <p className="text-gray-600">
-              Ser reconocidos como líderes en la industria, destacándonos por
-              nuestro enfoque innovador en tecnología, ético y profesional, y
-              por el impacto positivo que generamos.
+            Aspiramos a ser pioneros en la industria de la ciencia de datos, reconocidos por nuestra capacidad de integrar tecnología de punta modelo de negocio. Nuestra visión se centra en ser una fuerza motriz para la innovación y el progreso, marcando una diferencia significativa a través de insights basados en datos.
             </p>
           </div>
           <div className="value-item bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
@@ -46,8 +42,7 @@ const Values = () => {
               Valores
             </h3>
             <p className="text-gray-600">
-              Nos regimos estrictamente por valores como la comunicación, la
-              comprensión, paciencia, confianza, fidelidad e innovación.
+            Valoramos la comunicación precisa, la comprensión profunda de las necesidades del cliente, la paciencia estratégica, la confianza en los números, la lealtad a la evidencia y el compromiso continuo con la vanguardia tecnológica.
             </p>
           </div>
         </div>

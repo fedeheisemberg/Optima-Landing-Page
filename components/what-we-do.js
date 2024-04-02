@@ -8,44 +8,31 @@ const WhatWeDo = () => {
           Cómo lo hacemos
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
+          {/* Tarjeta 1 y 2 unificadas en contenido */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-800 mb-3">
-              Formación de carteras
+              Gestión Integral de Inversiones
             </h3>
             <p className="text-gray-600">
-              Gestión completa y efectiva de carteras por un equipo de
-              profesionales altamente capacitados en mercados financieros en
-              general.
+              Ofrecemos una gestión de carteras integral, con estrategias de inversión diseñadas para la consecución de tus metas financieras. Nuestros planes están basados en un profundo entendimiento del mercado y una evaluación detallada de los riesgos, asegurando soluciones que optimizan el crecimiento y la rentabilidad.
             </p>
           </div>
+          {/* Nueva tarjeta 3 con contenido sobre ciencia de datos */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-800 mb-3">
-              Estrategias algorítmicas de mercado
+              Ciencia de Datos en Finanzas
             </h3>
             <p className="text-gray-600">
-              Otorgamos soluciones a conjeturas de mercado de manera efectiva.
-              Esto es logrado a través de un proceso de análisis de datos
-              financieros riguroso.
+              Aplicamos la ciencia de datos para ofrecer insights que mejoran las estrategias financieras y resuelven desafíos empresariales. A través del análisis de ventas, costos y rotación, proporcionamos una comprensión más profunda para la toma de decisiones efectivas. Nuestra segmentación de clientes y optimización de inventarios están respaldadas por indicadores avanzados generados por técnicas de Machine Learning.
             </p>
           </div>
+          {/* Nueva tarjeta 4 con contenido sobre personalización tecnológica */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-800 mb-3">
-              Planes de inversión
+              Personalización Tecnológica y Algoritmos
             </h3>
             <p className="text-gray-600">
-              Diseñados para ayudarte a alcanzar tus objetivos en el mercado a
-              corto y largo plazo, siempre minimizando y gestionando el riesgo
-              apropiadamente.
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
-            <h3 className="text-xl font-semibold text-blue-800 mb-3">
-              Asesoría bursátil y financiera
-            </h3>
-            <p className="text-gray-600">
-              Soluciones precisas y confiables para todas tus necesidades
-              económicas y financieras relacionados a la evolución de los
-              mercados bursátiles de acciones, commodities y renta fija.
+              Desarrollamos soluciones tecnológicas personalizadas, incluyendo algoritmos y bots que se adaptan a la identidad única de cada empresa. Estas herramientas están diseñadas para integrarse a la perfección con tus procesos empresariales, mejorando la eficiencia operativa y brindando una ventaja competitiva en el mercado.
             </p>
           </div>
         </div>
@@ -53,5 +40,6 @@ const WhatWeDo = () => {
     </section>
   );
 };
+
 
 export default WhatWeDo;
