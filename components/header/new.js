@@ -155,7 +155,7 @@ const NewHeader = () => {
       <div className="flex items-center justify-center w-full h-full bg-opacity-50 bg-gray-900">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-white uppercase tracking-wide leading-tight md:text-5xl lg:text-6xl">
-            Ciencia de Datos para {" "}
+            Data Science para {" "}
             <span className="text-blue-400">Empresas y Finanzas</span>
           </h1>
           <p className="mt-4 text-base text-white leading-relaxed md:text-lg lg:text-xl">
