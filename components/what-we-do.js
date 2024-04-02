@@ -5,7 +5,7 @@ const WhatWeDo = () => {
     <section id="what-we-do" className="bg-gray-50 py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-center text-3xl sm:text-4xl font-extrabold text-gray-900 mb-12">
-        Cómo lo hacemos
+        {/*Cómo lo hacemos*/}
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           {/* Tarjeta 1 y 2 unificadas en contenido */}
