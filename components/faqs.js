@@ -44,7 +44,9 @@ const Faqs = () => {
           <FaqItem title="¿Qué es el Machine Learning y cómo lo aplicamos en el mundo de las finanzas y la resolución de problemas empresariales?">
             El Machine Learning, o aprendizaje automático, es una rama de las Ciencias de la Computación que se centra en el desarrollo de sistemas capaces de aprender y hacer predicciones a partir de datos. En el mundo de las finanzas, lo usamos para identificar patrones de mercado, optimizar carteras, evaluar riesgos y mucho más, mejorando así la toma de decisiones y la eficiencia operativa.
           </FaqItem>
-
+          <FaqItem title="¿Cómo aplican las Ciencias de la Computación y la Ciencia de Datos para mejorar las estrategias de inversión y resolver problemas empresariales?">
+            Además de optimizar estrategias de inversión mediante técnicas de aprendizaje automático e inteligencia artificial para analizar grandes conjuntos de datos del mercado, aplicamos la ciencia de datos para abordar retos empresariales. Esto incluye modelos predictivos para reducir la rotación de empleados, algoritmos de optimización de inventarios para reducir costos, y análisis avanzados de datos para impulsar las ventas y la toma de decisiones. Nuestro enfoque holístico integra múltiples fuentes de datos y metodologías para proporcionar soluciones completas y accionables.
+          </FaqItem>
           <FaqItem title="¿Qué es un fondo de inversión?">
             Un fondo de inversión es un instrumento financiero que reúne capital
             de varios inversores para invertir en una diversidad de activos.
@@ -52,9 +54,6 @@ const Faqs = () => {
           <FaqItem title="¿Cómo funcionan las estrategias algorítmicas?">
             Las estrategias algorítmicas utilizan modelos matemáticos para tomar
             decisiones de inversión automatizadas basadas en datos del mercado.
-          </FaqItem>
-          <FaqItem title="¿Cómo aplican las Ciencias de la Computación y la Ciencia de Datos para mejorar las estrategias de inversión y resolver problemas empresariales?">
-            Además de optimizar estrategias de inversión mediante técnicas de aprendizaje automático e inteligencia artificial para analizar grandes conjuntos de datos del mercado, aplicamos la ciencia de datos para abordar retos empresariales. Esto incluye modelos predictivos para reducir la rotación de empleados, algoritmos de optimización de inventarios para reducir costos, y análisis avanzados de datos para impulsar las ventas y la toma de decisiones. Nuestro enfoque holístico integra múltiples fuentes de datos y metodologías para proporcionar soluciones completas y accionables.
           </FaqItem>
 
           <FaqItem title="¿Qué tipo de apoyo educativo ofrecen para inversores principiantes?">
