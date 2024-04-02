@@ -43,6 +43,12 @@ const WhatWeDo = () => {
            Ofrecemos consultoría especializada en finanzas y análisis de datos, ayudando a empresas a navegar el mercado bursátil con estrategias basadas en inteligencia de datos para la optimización de inversiones y la toma de decisiones estratégicas.
            </p>
           </div>
+          <button
+            type="button"
+            className="mt-8 inline-flex items-center px-6 py-3 border border-transparent text-lg leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150"
+          >
+            Quiero saber más
+          </button>
         </div>
       </div>
     </section>

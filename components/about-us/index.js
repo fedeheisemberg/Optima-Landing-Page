@@ -18,12 +18,7 @@ const AboutUs = () => {
             Computación específicamente dedicado a ayudarte a mejorar tu
             situación financiera de largo plazo.
           </p>
-          <button
-            type="button"
-            className="mt-8 inline-flex items-center px-6 py-3 border border-transparent text-lg leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150"
-          >
-            Quiero saber más
-          </button>
+          
         </div>
       </div>
     </section>
