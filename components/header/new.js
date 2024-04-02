@@ -96,6 +96,12 @@ const NewHeader = () => {
             >
               Contacto
             </a>
+            <a
+            href="https://optima-blog.vercel.app/"
+            className="px-3 py-2 text-sm font-medium text-gray-100 rounded-md hover:bg-gray-200 lg:mx-2 hover:text-gray-800"
+          >
+            OptimaBlog
+          </a>
           </nav>
         </div>
       </header>
@@ -153,7 +159,7 @@ const NewHeader = () => {
             <span className="text-blue-400">Empresas y Finanzas</span>
           </h1>
           <p className="mt-4 text-base text-white leading-relaxed md:text-lg lg:text-xl">
-            Utilizamos un enfoque basado en datos para guiar decisiones financieras y empresariales estratégicas, buscando efectividad y minimizando exposición al riesgo.
+            Utilizamos un enfoque basado en datos para guiar decisiones financieras y empresariales estratégicas, logrando efectividad y minimizando riesgos.
           </p>
           <Link to="contact_scroll" smooth={true} duration={500}>
             <button className="mt-8 px-6 py-3 text-white text-lg font-medium uppercase bg-blue-600 rounded-lg shadow-lg hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 focus:outline-none focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
