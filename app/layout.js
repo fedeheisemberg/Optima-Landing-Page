@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Optima Consulting & Management",
-  description: "Somos una empresa de Finanzas Cuantitativas.",
+  description: "Somos una empresa de Data Science aplicado a Finanzas Empresariales.",
 };
 
 export default function RootLayout({ children }) {
