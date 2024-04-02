@@ -10,13 +10,12 @@ const AboutUs = () => {
             Nuestros Servicios
           </h2>
           <p className="mt-4 text-lg leading-6 text-gray-600">
-            Nos especializamos en estrategias de inversión con toma de
-            decisiones basadas en datos para optimizar resultados.
+          Nos especializamos en estrategias de inversión y aplicaciones de machine learning orientadas al ámbito corporativo, con el fin de potenciar resultados y acrecentar la rentabilidad. 
           </p>
           <p className="mt-2 text-lg leading-6 text-gray-600">
             Somos un equipo de profesionales de las Ciencias Económicas y de la
             Computación específicamente dedicado a ayudarte a mejorar tu
-            situación financiera de largo plazo.
+            situación financiera de largo plazo, ofreciendo además soluciones personalizadas de aprendizaje automático que catalizan la eficiencia operativa y la transformación empresarial.
           </p>
           <button
             type="button"
