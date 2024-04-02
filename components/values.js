@@ -18,7 +18,7 @@ const Values = () => {
             />
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Misión</h3>
             <p className="text-gray-600">
-            Empoderar la toma de decisiones financieras y empresariales mediante respuestas sofisticadas y seguras, sustentadas en análisis de datos exhaustivos. Nos comprometemos a transformar datos complejos en estrategias claras y efectivas para impulsar el crecimiento sostenible y la rentabilidad de nuestros clientes.
+            Empoderar la toma de decisiones financieras y empresariales sustentadas en análisis de datos exhaustivos. Nos comprometemos a transformar datos complejos en estrategias claras y efectivas para impulsar el crecimiento y la rentabilidad de nuestros clientes.
             </p>
           </div>
           <div className="value-item bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
@@ -29,7 +29,7 @@ const Values = () => {
             />
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Visión</h3>
             <p className="text-gray-600">
-            Aspiramos a ser pioneros en la industria de la ciencia de datos, reconocidos por nuestra capacidad de integrar tecnología de punta modelo de negocio. Nuestra visión se centra en ser una fuerza motriz para la innovación y el progreso, marcando una diferencia significativa a través de insights basados en datos.
+            Aspiramos a ser pioneros en la industria de la ciencia de datos, reconocidos por nuestra capacidad de integrar tecnología de punta a nuestro modelo de negocio. Nuestra visión se centra en ser una fuerza motriz para la innovación y el progreso a través de insights basados en datos.
             </p>
           </div>
           <div className="value-item bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
