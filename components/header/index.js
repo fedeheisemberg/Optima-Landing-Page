@@ -57,7 +57,7 @@ const Header = () => {
               <ChatIcon className="h-5 w-5 inline-block mr-1" />
               Contacto
             </a>
-            <a href="#https://optima-blog.vercel.app/">
+            <a href="https://optima-blog.vercel.app/">
               <ChatIcon className="h-5 w-5 inline-block mr-1" />
               OptimaBlog
             </a>
@@ -66,7 +66,7 @@ const Header = () => {
       </header>
       <div className="banner-content">
       <h1>Ciencia de Datos para Empresas y Finanzas.</h1>
-      <p>Utilizamos un enfoque basado en datos para guiar decisiones financieras y empresariales estratégicas, buscando rentabilidad y minimizando exposición al riesgo.</p>
+      <p>Utilizamos un enfoque basado en datos para guiar decisiones financieras y empresariales estratégicas, buscando efectividad y minimizando exposición al riesgo.</p>
 
         <a href="#management-team" className="button explore-now">
           Conocer más <ChevronDownIcon className="h-5 w-5 inline-block ml-1" />
