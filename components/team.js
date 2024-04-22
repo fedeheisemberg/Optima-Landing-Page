@@ -16,7 +16,7 @@ const Team = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="team-member bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
             <img
-              src="/images/Fede3.jpg"
+              src="/images/Fede3.jpeg"
               alt="Federico Martinez"
               className="w-full h-auto rounded-full mb-4"
             />
