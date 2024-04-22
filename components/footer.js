@@ -47,6 +47,11 @@ const Footer = () => {
               OptimaBlog
               </a>
             </li>
+            <li>
+              <a href="https://drive.google.com/drive/folders/1g8yRqicXvtFnpt8U3Wa23wLKoaX6QMd8?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-primary-500">
+              Legales
+              </a>
+            </li>
 
           </ul>
         </div>
