@@ -52,6 +52,11 @@ const Footer = () => {
               Legales
               </a>
             </li>
+            <li>
+              <a href="https://forms.gle/aCkad8dtzoVQK7Wx8" target="_blank" rel="noopener noreferrer" className="hover:text-primary-500">
+              Trabaja con Nosotros
+              </a>
+            </li>
 
           </ul>
         </div>
