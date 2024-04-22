@@ -150,6 +150,13 @@ const NewHeader = () => {
           >
             OptimaBlog
           </a>
+
+          <a
+            href="https://forms.gle/aCkad8dtzoVQK7Wx8" target="_blank" rel="noopener noreferrer"
+            className="block px-3 py-2 mt-4 text-sm font-medium text-gray-700 rounded-md hover:bg-gray-200 lg:mt-0 lg:inline-block"
+          >
+            Trabaja con Nosotros
+          </a>
         </div>
       </Transition>
       <div className="flex items-center justify-center w-full h-full bg-opacity-50 bg-gray-900">
