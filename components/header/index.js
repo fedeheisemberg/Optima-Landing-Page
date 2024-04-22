@@ -61,6 +61,10 @@ const Header = () => {
               <ChatIcon className="h-5 w-5 inline-block mr-1" />
               OptimaBlog
             </a>
+            <a href="https://forms.gle/aCkad8dtzoVQK7Wx8">
+              <ChatIcon className="h-5 w-5 inline-block mr-1" />
+              Trabaja con Nosotros
+            </a>
           </nav>
         </div>
       </header>
