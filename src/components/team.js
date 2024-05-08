@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 const Team = () => {
@@ -23,9 +24,7 @@ const Team = () => {
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Federico Martinez
             </h3>
-            <p className="text-gray-600">
-              Financial Data Analyst
-            </p>
+            <p className="text-gray-600">Financial Data Analyst</p>
           </div>
           <div className="team-member bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
             <img
@@ -36,9 +35,7 @@ const Team = () => {
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Gabriel Guardia
             </h3>
-            <p className="text-gray-600">
-              Financial Data Analyst
-            </p>
+            <p className="text-gray-600">Financial Data Analyst</p>
           </div>
           <div className="team-member bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
             <img
@@ -49,9 +46,7 @@ const Team = () => {
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Matias Camisay
             </h3>
-            <p className="text-gray-600">
-              Developer
-            </p>
+            <p className="text-gray-600">Developer</p>
           </div>
         </div>
       </div>

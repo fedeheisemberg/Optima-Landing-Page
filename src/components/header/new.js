@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Transition } from "@headlessui/react";
-import { cn } from "@/lib/classnames";
+import { cn } from "@/libs/classnames";
 import { Link } from "react-scroll";
 
 const NewHeader = () => {
@@ -97,17 +97,21 @@ const NewHeader = () => {
               Contacto
             </a>
             <a
-            href="https://optima-blog.vercel.app/" target="_blank" rel="noopener noreferrer"
-            className="px-3 py-2 text-sm font-medium text-gray-100 rounded-md hover:bg-gray-200 lg:mx-2 hover:text-gray-800"
-          >
-            OptimaBlog
-          </a>
-          <a
-            href="https://forms.gle/aCkad8dtzoVQK7Wx8" target="_blank" rel="noopener noreferrer"
-            className="px-3 py-2 text-sm font-medium text-gray-100 rounded-md hover:bg-gray-200 lg:mx-2 hover:text-gray-800"
-          >
-            Únete al Equipo
-          </a>
+              href="https://optima-blog.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-2 text-sm font-medium text-gray-100 rounded-md hover:bg-gray-200 lg:mx-2 hover:text-gray-800"
+            >
+              OptimaBlog
+            </a>
+            <a
+              href="https://forms.gle/aCkad8dtzoVQK7Wx8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-2 text-sm font-medium text-gray-100 rounded-md hover:bg-gray-200 lg:mx-2 hover:text-gray-800"
+            >
+              Únete al Equipo
+            </a>
           </nav>
         </div>
       </header>
@@ -151,14 +155,18 @@ const NewHeader = () => {
             Contacto
           </a>
           <a
-            href="https://optima-blog.vercel.app/" target="_blank" rel="noopener noreferrer"
+            href="https://optima-blog.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="block px-3 py-2 mt-4 text-sm font-medium text-gray-700 rounded-md hover:bg-gray-200 lg:mt-0 lg:inline-block"
           >
             OptimaBlog
           </a>
 
           <a
-            href="https://forms.gle/aCkad8dtzoVQK7Wx8" target="_blank" rel="noopener noreferrer"
+            href="https://forms.gle/aCkad8dtzoVQK7Wx8"
+            target="_blank"
+            rel="noopener noreferrer"
             className="block px-3 py-2 mt-4 text-sm font-medium text-gray-700 rounded-md hover:bg-gray-200 lg:mt-0 lg:inline-block"
           >
             Únete al Equipo
@@ -168,11 +176,13 @@ const NewHeader = () => {
       <div className="flex items-center justify-center w-full h-full bg-opacity-50 bg-gray-900">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-white uppercase tracking-wide leading-tight md:text-5xl lg:text-6xl">
-            Data Science para {" "}
+            Data Science para{" "}
             <span className="text-blue-400">Empresas y Finanzas</span>
           </h1>
           <p className="mt-4 text-base text-white leading-relaxed md:text-lg lg:text-xl">
-            Utilizamos un enfoque basado en datos para guiar decisiones financieras y empresariales estratégicas, logrando efectividad y minimizando riesgos.
+            Utilizamos un enfoque basado en datos para guiar decisiones
+            financieras y empresariales estratégicas, logrando efectividad y
+            minimizando riesgos.
           </p>
           <Link to="contact_scroll" smooth={true} duration={500}>
             <button className="mt-8 px-6 py-3 text-white text-lg font-medium uppercase bg-blue-600 rounded-lg shadow-lg hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 focus:outline-none focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">

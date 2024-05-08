@@ -1,13 +1,12 @@
 "use server";
-import { parseResponse } from "@/lib/parse";
-import Contact from "../models/Contact";
-import dbConnect from "@/lib/dbConnect";
+import { parseResponse } from "@/libs/parse";
+import Contact from "../../mongo/models/Contact";
+import dbConnect from "@/mongo";
 
 export async function saveContactInfo(contactData) {
   try {
     await dbConnect();
     const contact = await Contact.create(contactData);
-    console.log({ contact });
     return {
       success: true,
       message: "Contact saved",

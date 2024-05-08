@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
-import InputField from "../ui/input-field";
-import TextareaField from "../ui/text-area";
+import InputField from "../../ui/input-field";
+import TextareaField from "../../ui/text-area";
 import { saveContactInfo } from "./action";
 import { toast } from "react-toastify";
 
