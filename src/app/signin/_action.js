@@ -10,7 +10,7 @@ export default async function signInAction(credentials) {
     await signIn("credentials", {
       ...credentials,
       callbackUrl: "/admin",
-      redirect: false,
+      redirect: true,
     });
     success = true;
   } catch (error) {
@@ -21,7 +21,7 @@ export default async function signInAction(credentials) {
     console.log({ error });
     return { error: parseResponse(error.message) };
   }
-  if (success) {
-    redirect("/admin");
-  }
+  // if (success) {
+  //   redirect("/admin");
+  // }
 }
