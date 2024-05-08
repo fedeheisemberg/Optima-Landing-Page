@@ -29,11 +29,11 @@ async function dbConnect() {
   if (!cached.promise) {
     const opts = {
       bufferCommands: false,
+      dbName: "dev",
     };
 
     cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => {
-      const dbName = "dev";
-      return mongoose.connection.useDb(dbName);
+      return mongoose;
     });
   }
   cached.conn = await cached.promise;

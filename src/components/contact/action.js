@@ -1,6 +1,6 @@
 "use server";
 import { parseResponse } from "@/libs/parse";
-import Contact from "../../mongo/models/Contact";
+import Contact from "../../mongo/contact/model";
 import dbConnect from "@/mongo";
 
 export async function saveContactInfo(contactData) {
