@@ -18,7 +18,7 @@ export default async function signInAction(credentials) {
     return { error: parseResponse(error.message) };
   } finally {
     if (success) {
-      redirect("/dashboard");
+      redirect("/admin");
     }
   }
 }
