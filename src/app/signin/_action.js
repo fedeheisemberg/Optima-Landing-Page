@@ -10,7 +10,7 @@ export default async function signInAction(credentials) {
     await signIn("credentials", {
       ...credentials,
       callbackUrl: "/admin",
-      redirect: true,
+      redirect: false,
     });
     success = true;
   } catch (error) {
