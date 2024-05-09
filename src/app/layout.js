@@ -3,7 +3,7 @@ import "./globals.css";
 import "./old.css";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-// import GoogleAnalytics from "./google-analytics"; // DESCOMENTAR PARA ACTIVAR GOOGLE ANALYTICS
+import GoogleAnalytics from "./google-analytics"; // DESCOMENTAR PARA ACTIVAR GOOGLE ANALYTICS
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} bg-gray-200`}>
-        {/* <GoogleAnalytics /> */}{" "}
+        <GoogleAnalytics /> 
         {/* DESCOMENTAR PARA ACTIVAR GOOGLE ANALYTICS */}
         <ToastContainer />
         {children}
