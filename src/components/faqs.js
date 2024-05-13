@@ -26,7 +26,7 @@ const FaqItem = ({ title, children }) => {
           transition={{ duration: 0.8 }}
           className="p-5 bg-white rounded-b-lg"
         >
-          <p>{children}</p>
+          <p className="text-gray-900">{children}</p>
         </motion.div>
       )}
     </div>
