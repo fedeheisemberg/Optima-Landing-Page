@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link'; // Importa Link de next/link
 
 const Education = () => {
   return (
@@ -20,14 +21,15 @@ const Education = () => {
             herramientas avanzadas para que puedas aplicarlo al mundo real.
           </p>
           <p className="text-lg leading-6 text-gray-600 mb-8">
-          Por eso desarrollamos Optima Learning. Te invitamos a nuestra plataforma.
+            Por eso desarrollamos Optima Learning. Te invitamos a nuestra plataforma.
           </p>
-          <button
-            type="button"
-            className="inline-flex items-center px-6 py-3 border border-transparent text-lg leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150"
-            onClick={() => window.location.href='https://www.optimalearning.site/search'}>
-           OptimaLearning
-          </button>
+          <Link href="https://www.optimalearning.site/search" passHref>
+            <button
+              type="button"
+              className="inline-flex items-center px-6 py-3 border border-transparent text-lg leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150">
+              OptimaLearning
+            </button>
+          </Link>
         </div>
       </div>
     </section>
@@ -35,3 +37,4 @@ const Education = () => {
 };
 
 export default Education;
+
