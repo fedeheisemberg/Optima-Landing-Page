@@ -14,7 +14,7 @@ const WhatWeDo = () => {
               Gestión Integral de Inversiones
             </h3>
             <p className="text-gray-600">
-              Ofrecemos una gestión de carteras integral, con estrategias de inversión diseñadas para la consecución de tus metas financieras. Nuestros planes están basados en un profundo entendimiento del mercado y una evaluación detallada de los riesgos, asegurando soluciones que optimizan el crecimiento y la rentabilidad.
+            Ofrecemos gestión integral de carteras con estrategias de inversión orientadas a tus metas financieras. Nuestros planes, basados en un análisis profundo del mercado y evaluación de riesgos, optimizan el crecimiento y la rentabilidad.
             </p>
           </div>
           {/* Nueva tarjeta 3 con contenido sobre ciencia de datos */}
@@ -23,24 +23,24 @@ const WhatWeDo = () => {
               Ciencia de Datos
             </h3>
             <p className="text-gray-600">
-              Aplicamos la ciencia de datos para ofrecer insights que mejoran las estrategias financieras y resuelven desafíos empresariales. A través del análisis de ventas, costos y rotación, proporcionamos una comprensión más profunda para la toma de decisiones efectivas.
+            Aplicamos ciencia de datos para ofrecer insights que mejoran estrategias financieras y resuelven desafíos empresariales, analizando ventas, costos y rotación para decisiones efectivas.
             </p>
           </div>
           {/* Nueva tarjeta 4 con contenido sobre personalización tecnológica */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-800 mb-3">
-              Personalización Tecnológica y Algoritmos
+              Personalización Tecnológica 
             </h3>
             <p className="text-gray-600">
-              Desarrollamos soluciones tecnológicas personalizadas, incluyendo algoritmos de Machine Learning y bots que se adaptan a la identidad única de cada empresa. Estas herramientas están diseñadas para integrarse y mejorar la eficiencia operativa de tu empresa.
+            Desarrollamos soluciones tecnológicas personalizadas, incluyendo algoritmos de Machine Learning y bots adaptados a cada empresa. Nuestras herramientas mejoran la eficiencia operativa e integran con tu identidad única.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-800 mb-3">
-              Asesoría Financiera y Análisis de Datos
+              Asesoría y Análisis
            </h3>
            <p className="text-gray-600">
-           Ofrecemos consultoría especializada en finanzas y análisis de datos, ayudando a empresas a navegar el mercado bursátil con estrategias basadas en inteligencia de datos para la optimización de inversiones y la toma de decisiones estratégicas.
+           Ofrecemos consultoría en finanzas y análisis de datos, ayudando a empresas a optimizar inversiones y tomar decisiones estratégicas mediante estrategias basadas en inteligencia de datos.
            </p>
           </div>
           

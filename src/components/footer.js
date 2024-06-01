@@ -33,8 +33,8 @@ const Footer = () => {
               </a>
             </li>
             <li className="mb-2">
-              <a href="#education" className="hover:text-primary-500">
-                Educación
+              <a href="https://www.optimalearning.site/search" className="hover:text-primary-500">
+                OptimaLearning
               </a>
             </li>
             <li>

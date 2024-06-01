@@ -59,14 +59,14 @@ const Faqs = () => {
           <FaqItem title="¿Qué tipo de apoyo educativo ofrecen para inversores principiantes?">
             Ofrecemos una gama de seminarios y programas educativos diseñados
             para todos los niveles de experiencia. Para los inversores
-            principiantes, tenemos cursos que cubren los fundamentos de las
+            principiantes, tenemos seminarios que cubren los fundamentos de las
             inversiones, la comprensión del mercado, y estrategias básicas de
             trading. Nuestros programas están diseñados para equipar a los
             inversores con el conocimiento necesario para tomar decisiones
             informadas y confiadas.
           </FaqItem>
           <FaqItem title="¿Cómo garantizan la alineación de sus servicios con mis objetivos financieros, tanto personales como empresariales?">
-            En Optima, reconocemos que cada cliente y empresa tiene metas únicas. Nuestro equipo de expertos colabora estrechamente contigo o con tu departamento financiero para entender los objetivos financieros a corto y largo plazo, ya sean personales o relacionados con el crecimiento y estabilidad de tu negocio. Con esta información detallada, diseñamos planes de inversión personalizados y asesoramiento estratégico que se ajustan específicamente a tus necesidades y perfil de riesgo, o los de tu empresa, asegurando así que nuestras estrategias promuevan el éxito y la sostenibilidad financiera de tu cartera individual o corporativa.
+            En Optima, reconocemos que cada cliente y empresa tiene metas únicas. Nuestro equipo colabora estrechamente contigo o con tu departamento financiero para entender los objetivos financieros, ya sean personales o relacionados con el crecimiento y estabilidad de tu negocio. Con esta información, diseñamos planes de inversión que se ajustan específicamente a tus necesidades y perfil de riesgo, o los de tu empresa, asegurando así que nuestras estrategias promuevan el éxito y la sostenibilidad financiera de tu cartera individual o corporativa.
           </FaqItem>
 
         </div>

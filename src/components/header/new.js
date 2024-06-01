@@ -85,10 +85,10 @@ const NewHeader = () => {
               Nuestro proceso
             </a>
             <a
-              href="#education"
+              href="https://www.optimalearning.site/search"
               className="px-3 py-2 text-sm font-medium text-gray-100 rounded-md hover:bg-gray-200 lg:mx-2 hover:text-gray-800"
             >
-              Educación
+              OptimaLearning
             </a>
             <a
               href="#contact"
@@ -143,10 +143,10 @@ const NewHeader = () => {
             Nuestro proceso
           </a>
           <a
-            href="#education"
+            href="https://www.optimalearning.site/search"
             className="block px-3 py-2 mt-4 text-sm font-medium text-gray-700 rounded-md hover:bg-gray-200 lg:mt-0 lg:inline-block"
           >
-            Educación
+            OptimaLearning
           </a>
           <a
             href="#contact"
