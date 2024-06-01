@@ -86,6 +86,8 @@ const NewHeader = () => {
             </a>
             <a
               href="https://www.optimalearning.site/search"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-3 py-2 text-sm font-medium text-gray-100 rounded-md hover:bg-gray-200 lg:mx-2 hover:text-gray-800"
             >
               OptimaLearning
@@ -144,6 +146,8 @@ const NewHeader = () => {
           </a>
           <a
             href="https://www.optimalearning.site/search"
+            target="_blank"
+            rel="noopener noreferrer"
             className="block px-3 py-2 mt-4 text-sm font-medium text-gray-700 rounded-md hover:bg-gray-200 lg:mt-0 lg:inline-block"
           >
             OptimaLearning
