@@ -13,6 +13,7 @@ const Footer = () => {
           <p>Laprida 230 Oeste. Oficina 11, Piso 1.</p>
           <p>San Juan, Argentina. Código Postal 5400.</p>
           <p>optimaconsultingmanagement@gmail.com</p>
+          <p>soporte@optimafinancials.com</p>
         </div>
         <div className="footer-section">
           <h3 className="font-bold text-xl mb-4">Links</h3>
